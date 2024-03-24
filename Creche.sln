@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creche.API", "Creche.API\Creche.API.csproj", "{33DB99AD-27FA-434E-8C64-0DE4B4EF4AC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creche.Application", "Creche.Application\Creche.Application.csproj", "{39E3358E-77A2-4E7A-B791-CFA6C53E89C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creche.Infrastructure", "Creche.Infrastructure\Creche.Infrastructure.csproj", "{416160C9-9EBD-4091-94D7-ACAF2287E141}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creche.Tests", "Creche.Tests\Creche.Tests.csproj", "{19B341B5-5AEE-4CB6-B0CC-737DF833670A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creche.Domain", "Creche.Domain\Creche.Domain.csproj", "{E860B27F-7AA5-450E-876B-30D6811F4DEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendEmail.API", "SendEmail.API\SendEmail.API.csproj", "{1C777D8F-7940-4E38-B194-7DAF59D41358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{07E4592D-AB27-40D2-B732-C798570526DD}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33DB99AD-27FA-434E-8C64-0DE4B4EF4AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DB99AD-27FA-434E-8C64-0DE4B4EF4AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DB99AD-27FA-434E-8C64-0DE4B4EF4AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DB99AD-27FA-434E-8C64-0DE4B4EF4AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E3358E-77A2-4E7A-B791-CFA6C53E89C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E3358E-77A2-4E7A-B791-CFA6C53E89C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E3358E-77A2-4E7A-B791-CFA6C53E89C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E3358E-77A2-4E7A-B791-CFA6C53E89C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416160C9-9EBD-4091-94D7-ACAF2287E141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416160C9-9EBD-4091-94D7-ACAF2287E141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416160C9-9EBD-4091-94D7-ACAF2287E141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416160C9-9EBD-4091-94D7-ACAF2287E141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B341B5-5AEE-4CB6-B0CC-737DF833670A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B341B5-5AEE-4CB6-B0CC-737DF833670A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B341B5-5AEE-4CB6-B0CC-737DF833670A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B341B5-5AEE-4CB6-B0CC-737DF833670A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E860B27F-7AA5-450E-876B-30D6811F4DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E860B27F-7AA5-450E-876B-30D6811F4DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E860B27F-7AA5-450E-876B-30D6811F4DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E860B27F-7AA5-450E-876B-30D6811F4DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C777D8F-7940-4E38-B194-7DAF59D41358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C777D8F-7940-4E38-B194-7DAF59D41358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C777D8F-7940-4E38-B194-7DAF59D41358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C777D8F-7940-4E38-B194-7DAF59D41358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85D605F3-AA5A-4FD5-B7C4-D1EE4820313B}
+	EndGlobalSection
+EndGlobal
